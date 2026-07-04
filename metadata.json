@@ -1,0 +1,6 @@
+{
+  "name": "Sweet Crumbs Bakery",
+  "description": "A premium digital storefront for Sweet Crumbs Bakery and Café, showcasing artisanal breads, custom cakes, pastries, testimonials, and visitor information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

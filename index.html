@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Sweet Crumbs Bakery & Café | Artisanal Breads & Custom Cakes</title>
+    <meta name="description" content="Discover Sweet Crumbs Bakery & Café. Indulge in slow-fermented organic sourdough, hand-decorated custom wedding & birthday cakes, flaky croissants, and fresh savory treats. Local delivery near Baker Street." />
+    <meta name="keywords" content="Sweet Crumbs Bakery, sourdough bread, custom cakes, wedding cakes, birthday cakes, croissants, artisanal bakery, Baker Street café" />
+    <meta name="author" content="Sweet Crumbs Bakery" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sweet Crumbs Bakery & Café | Artisanal Breads & Custom Cakes" />
+    <meta property="og:description" content="Order slow-fermented organic sourdough, stunning bespoke celebration cakes, and fresh pastries from Sweet Crumbs Bakery." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sweet Crumbs Bakery & Café | Artisanal Breads & Custom Cakes" />
+    <meta name="twitter:description" content="Artisanal sourdough, beautiful custom celebration cakes, and fresh neighborhood pastries." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+    <!-- Local Business Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Bakery",
+        "name": "Sweet Crumbs Bakery & Café",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&h=630&q=80",
+        "@id": "https://sweet-crumbs-bakery.example.com",
+        "url": "https://sweet-crumbs-bakery.example.com",
+        "telephone": "+1 (555) 793-3827",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "221B Baker Street",
+          "addressLocality": "London",
+          "postalCode": "NW1 6XE",
+          "addressCountry": "GB"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 51.5237,
+          "longitude": -0.1585
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "07:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday", "Sunday"],
+            "opens": "08:00",
+            "closes": "16:00"
+          }
+        ],
+        "sameAs": [
+          "https://facebook.com/sweetcrumbs",
+          "https://instagram.com/sweetcrumbs"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
