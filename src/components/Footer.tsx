@@ -52,14 +52,6 @@ export default function Footer({ setCurrentPage }: FooterProps) {
             >
               Terms of Service
             </button>
-            <a
-              id="footer-download-zip"
-              href="/sweet_crumbs_bakery.zip"
-              download="sweet_crumbs_bakery.zip"
-              className="hover:text-gold-muted flex items-center gap-1.5 transition-colors duration-300 cursor-pointer focus:outline-none font-bold text-gold-muted"
-            >
-              Download Code (ZIP) 📦
-            </a>
             <button
               id="footer-contact-btn"
               onClick={() => {
